@@ -73,7 +73,7 @@ NSString *kSKPSMTPPartContentTransferEncodingKey = @"kSKPSMTPPartContentTransfer
     
     if (!defaultPorts)
     {
-        defaultPorts = [[NSArray alloc] initWithObjects:[NSNumber numberWithShort:25], [NSNumber numberWithShort:465], [NSNumber numberWithShort:587], nil];
+        defaultPorts = [[NSArray alloc] initWithObjects:[NSNumber numberWithShort:465], [NSNumber numberWithShort:587], [NSNumber numberWithShort:25], nil];
     }
     
     if ((self = [super init]))
